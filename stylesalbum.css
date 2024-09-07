@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    padding: 0;
+}
+
+ul{ /* Se da formato a loes elementos dentro de la lista */
+    display: flex;
+    flex-direction: row; /* Ordena los elementos uno a lado de otro de forma horizontal */
+    justify-content: right;
+    color: white; /* Color de fuente */
+    list-style: none; /* Se quitan las viñetas circulares con el 'none' */
+    font-family: "Playfair", serif; /* Se implementa la fuenta importada de google */
+    font-size: 20px; /* Se define el tamaño de letra */
+    a{ /* Personalización de los estilos para los links (AQUÍ SE QUITA EL SUBRAYADO, siempre revisar que caja está dentro de cual, si no no queda) */
+        text-decoration: none; /* AQUÍ SE QUITA EL SUBRAYADO */
+        color:whitesmoke; /* Color de fuente */
+    }
+}
+
+.a{/* Esta parte me ayuda a dar continuidad a la pantalla y que no se vea un espacio blanco :( */
+    height: 1px;
+    color: whitesmoke;
+    display: flex;
+}
+
+.indexdos{ /* Es una clase de ul, me ayudó a dar el formato de color cuando el ratón se posiciona sobre el link */
+    a:hover{ /* Acciones de cuando el ratón se posiciona sobre el link */
+        color: palevioletred;
+    }
+    li{ /* Se define la separación o margen entre los elementos */
+        margin: 0 2rem; /* Hay un espacio de margin-left y margin-right de 2rem, margin-top y margin-bottom de 0 */
+        margin-top: 5px;
+    }
+}
+
+.c{/* Da al encabezado un color beige */
+    background-color: antiquewhite;
+}
+
+.col-6{
+    background-color: white;
+    font-family: "Roboto Condensed", system-ui;
+    color: whitesmoke;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 80%;
+        height: auto; /* Mantiene la proporción de la imagen */
+        max-width: 100%; /* Evita que la imagen sea más grande que su contenedor */
+        display: block;
+        border-radius: 50px;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+    video{
+        width: auto;
+        height: auto; /* Mantiene la proporción de la imagen */
+        max-width: 100%; /* Evita que la imagen sea más grande que su contenedor */
+        display: block;
+        border-radius: 50px;
+        margin: auto;
+        margin-bottom: 1.5rem;
+    }
+    h2{
+        text-align: center;
+    }
+}
+
+main{
+    background-color: black;
+    padding: 0;
+}
+.parteuno{
+    font-family: "Roboto Condensed", system-ui;
+    margin-top: 35px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background-color: black;
+    h1{
+        justify-content: center;
+        text-align: center;
+        color: whitesmoke;
+    }
+    p{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        color: whitesmoke;
+        text-align: justify;
+        font-size: 20px;
+    }
+}
+
+.albumts{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 100%;
+    h2{
+        margin-top: 1.8rem;
+        font-size: 4rem;
+    }
+    img{
+        margin-top: 2rem;
+    }
+}
+
+
+.albumuno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    h3{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 3rem;
+    }
+    li{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        line-height: 2.5;
+        font-weight: bold;
+    }
+}
+
+#ts{
+    background-color: #bdcfb7;
+    li{
+        color: #387f39;
+    }
+    h3{
+        color: #387f39;
+    }
+}
+
+#verde{
+    background-color: #508d4e;
+}
+
+#amarillo{
+    background-color: #e8c490;
+}
+
+#tsd{
+    background-color: #fefbd8;
+    li{
+        color: #d8a25e;
+    }
+    h3{
+        color: #d8a25e;
+    }
+}
+
+#morado{
+    background-color: #674188;
+}
+
+#tst{
+    background-color: #bea7c4;
+    li{
+        color: #674188;
+    }
+    h3{
+        color: #674188;
+    }
+}
+
+#rojo{
+    background-color: #6d3d46;
+}
+
+#tsc{
+    background-color: #c68484;
+    li{
+        color: #6d3d46;
+    }
+    h3{
+        color: #6d3d46;
+    }
+}
+
+#azul{
+    background-color: #7c93c7;
+}
+
+#tscn{
+    background-color: #c2e2f4;
+    h3{
+        color: #7c93c7;
+    }
+    li{
+        color: #7c93c7;
+    }
+}
+
+#negro{
+    background-color: #000003;
+}
+#repu{
+    background-color: #45474b;
+    h3{
+        color: black;
+    }
+    li{
+        color: black;
+    }
+}
+
+#rosa{
+    background-color: #eab4cc;
+}
+#cornelia{
+    background-color: #ffe6e6;
+    h3{
+        color: #eab4cc;
+    }
+    li{
+        color: #eab4cc;
+    }
+}
+#gris{
+    background-color: #d1cec7;
+}
+#folk{
+    background-color: #EEEEEE;
+    color: #939185;
+}
+
+
+#naranja{
+    background-color: #cc9d83;
+}
+#ever{
+    background-color: #ffe9d0;
+    h3{
+        color: #cc9d83;
+    }
+    li{
+        color: #cc9d83;
+    }
+}
+
+#marino{
+    background-color: #464d60;
+}
+#snow{
+    background-color: #7d8abc;
+    h3{
+        color: #464d60;
+    }
+    li{
+        color: #464d60;
+    }
+}
+
+.lyrics{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.contenedor{
+    background-color: #e0e1d8;
+    h2{
+        font-family: "Roboto Condensed", system-ui;
+    }
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#slut{
+    display: flex;
+    flex-direction: column;
+    li{
+        font-family: "Roboto Condensed", system-ui;
+    }
+}
+
+.btn{
+    background-color: #cdc6ac;
+    border: none;
+    color:#4f2f1c;
+    cursor: pointer;
+    font-family: "Roboto Condensed", system-ui;
+}
+.btn:hover{
+    background-color: #815477;
+    color: whitesmoke;
+}
+
+.mostpopularsongs{
+    padding-top: 2rem;
+}
+
+.favsong{
+    padding-top: 2rem;
+    font-family: "Roboto Condensed", system-ui;
+    font-size: 1.5rem;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#oursong{
+    display: none;
+}
+#oursongts{
+    display: none;
+}
+#slut{
+    display: none;
+}
+#favsong{
+    display: none;
+}
+#enchanted{
+    display: none;
+}
+#dear{
+    display: none;
+}
+#oursong{
+    display: none;
+}
+#burning{
+    display: none;
+}
+#all{
+    display: none;
+}
+#flamingo{
+    display: none;
+}
+#sunrise{
+    display: none;
+}
+#chain{
+    display: none;
+}
+#gorgeous{
+    display: none;
+}
+#overdramatic{
+    display: none;
+}
+#archer{
+    display: none;
+}
+#august{
+    display: none;
+}
+#lakes{
+    display: none;
+}
+#champagne{
+    display: none;
+}
+#problems{
+    display: none;
+}
+#karma{
+    display: none;
+}
+#cat{
+    display: none;
+}
+#street{
+    display: none;
+}
+#east{
+    display: none;
+}

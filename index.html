@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div style="text-align: center;" class="c"> <!-- Los elementos dentro del div se centraron -->
+      <img src="./imagenes/Taylor-Swift-Logo-20230.png" alt="taylorswift" width="30%">
+      <!-- Se insertó una imagen para el encabezado -->
+    </div>
+  </header>
+  <div class="b"> <!-- Barra de navegación -->
+    <nav> <!-- Barra de navegación -->
+      <div class="index"> <!-- índice -->
+        <ul class="indexdos">
+          <!-- Se agregó una clase con la finalidad de darle un estilo a los elementos dentro de ella -->
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="albumsts.html">Álbums</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main> <!-- Aquí no hay nada, solo es para rellenar la página -->
+      <div class="a container">
+        <h1> </h1>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <!-- Se insertó el código de un carrusel de imágenes directamente de boostra -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner"> <!-- Aquí empizan las imágenes -->
+          <div class="carousel-item active">
+            <img src="./imagenes/tay1.jpg" class="d-block w-100" alt="tay1">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/tay2.jpg" class="d-block w-100" alt="tay2">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/tay3.jpg" class="d-block w-100" alt="tay3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+      <div></div>
+      <div class="container-fluid p-0"> <!-- El div funciona para hacer una grilla -->
+        <div class="row">
+          <div class="col-6 p-0">
+            <div class="alpha"> <!-- En este espacio se hace otro div para un mensaje inicial -->
+              <div class="backgroundlover"></div>
+              <h2>
+                "...I wanna be defined by the things that I love
+                <br><br>
+                Not the things I hate
+                <br><br>
+                Not the things that I'm afraid of, I'm afraid of
+                <br><br>
+                Not the things that haunt me in the middle of the night
+                <br><br>
+                I, I just think that
+                <br><br>
+                You are what you love"
+                <br><br>
+                <div class="daylight">
+                  <h3>Daylight-Taylor Swift<h3>
+                </div>
+              </h2>
+            </div>
+          </div>
+          <div class="col-6 p-0">
+            <div class="alpha">
+              <div class="tittle">
+                <h3>Who is Taylor Swift Anyway? <span style="color: red;">Ew</span></h3>
+                <p>
+                  Taylor Swift es una cantante y compositora estadounidense. Es conocida por su inicio en la música country
+                  y transición al pop, ha sido una de las cantautoras más jóvenes en ser firmadas por una compañía disquera
+                  y una de las artistas con música más vendida de la industria. Taylor es una de las 100 personas más
+                  influyentes del mundo, título que ha cosechado con el gran éxito que ha tenido cada una de sus canciones.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <h3>
+              Ha ganado 12 premios Grammy y 34 Billboard
+              <img src="./imagenes/tocadiscos.png" alt="grammy">
+            </h3>
+          </div>
+          <div class="col-4">
+            <h3>
+              Ha lanzado un total de 54 canciones
+              <img src="./imagenes/cancion-de-amor.png" alt="cancion">
+            </h3>
+          </div>
+          <div class="col-4">
+            <h3>
+              6 giras mundiales
+              <img src="./imagenes/festival.png" alt="festival">
+            </h3>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer>Para saber más de Taylor Swift ingrese a <a href="https://www.instagram.com/taylorswift?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">https://www.instagram.com/taylorswift?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==</a></footer> <!-- Pie de página -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
